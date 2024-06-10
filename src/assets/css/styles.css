@@ -2,6 +2,8 @@
 
 /* Import  */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
   
 
 /* Umum Start */
@@ -11,16 +13,18 @@
     --warna-tulisan: #fff;
     --warna-tulisan2: #212529;
     --font-family: "Titillium Web", sans-serif;
+    --font-family2: "Mukta", sans-serif;
+
     
 }
 
-body h1, h2, h3, h4, h5, h6, a, p {
-    font-family: "Titillium Web", sans-serif;
+body h1, h2, h3, h4, h5, h6, a, p, body .btn-pasif {
+    font-family: var(--font-family2);
     color: var(--warna-tulisan2);
 }
 
 .btn-pasif {
-    color: var(--warna-tulisan);
+    color: var(--warna-tulisan) !important;
     /* background-color: var(--warna-primary); */
     margin: 5px 0 0 0;
 }
@@ -306,6 +310,12 @@ a.sidebar-link:hover {
     padding: 100px 25px 100px 25px;
 }
 
+.mainhero-wrapper span{
+  /* background-color: var(--warna-sekunder); */
+  filter: drop-shadow( 6px 2px 0px var(--warna-sekunder));
+  padding: .3rem;
+  /* border-radius: 10px; */
+}
 .mainhero-wrapper .content{
   margin-top: 5rem;
 }
@@ -334,13 +344,13 @@ a.sidebar-link:hover {
 
 @media (max-width: 426px){
 
-  .mainhero-wrapper .second-content .btn {
+  .mainhero-wrapper .content .right-content p{
+    border-radius: 10px;
+    padding: .5rem;
+    background-color: var(--warna-sekunder);
+    margin: auto;
     width: 100%;
-}
-
-  .mainhero-wrapper .first-content .text-content p{
-    width: 100% !important;
-}
+  }
 
 }
 
@@ -348,27 +358,19 @@ a.sidebar-link:hover {
   text-align: center;
   font-size: clamp(24px, 4vw, 32px);
   color: var(--warna-tulisan2);
+  font-weight: bold;
 }
-.mainhero-wrapper h1::after{
-  width: 50px;
-  height: 10px;
-  background-color: var(--warna-sekunder);
-}
-.mainhero-wrapper .first-content .text-content h1{
-  text-align: center;
-    font-weight: 800;
-}
+
   .mainhero-wrapper .content .right-content{
     align-content: center;
     text-align: justify;
     margin: auto 0;
-    /* background-color: #fcc3258f; */
     padding: .5rem;
     border-radius: 10px;
   }
     
 .mainhero-wrapper .content .right-content p{
-  font-size: clamp(10px, 2vw, 16px);
+  font-size: clamp(12px, 2vw, 18px);
   font-weight: bold;
   color: var(--warna-tulisan2);
   }
@@ -725,6 +727,8 @@ a.sidebar-link:hover {
     line-height: 28px;
     letter-spacing: 1px;
     border-top: 1px solid var(--warna-primary);
+    background-color: var(--warna-tulisan2);
+    border-radius: 10px;
   }
   
   .faq .card .card-body p {
