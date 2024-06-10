@@ -155,7 +155,7 @@ const Footer = () => {
             <div className="row align-items-center">
               <p className="text-center">
                 <i className="far fa-copyright me-1"></i>
-                2024 ISPC Official. All Rights Reserved
+                2024 ISO Official. All Rights Reserved
               </p>
             </div>
           </div>
