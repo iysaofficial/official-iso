@@ -352,6 +352,10 @@ a.sidebar-link:hover {
     width: 100%;
   }
 
+  .organized-section .image-content img{
+    width: 50% !important;
+}
+
 }
 
 .mainhero-wrapper h1{
@@ -434,7 +438,6 @@ a.sidebar-link:hover {
     padding: 0.7rem;
     transition: transform 0.6s ease-in-out; /* Efek transisi */
 }
-
   
 /* Organized End *//* Organized End */
 
@@ -759,7 +762,7 @@ a.sidebar-link:hover {
     position: relative;
     padding: 75px 25px 25px 25px;
     background-image: url(/assets/icon/wave-atas.svg);
-
+    border-top: solid 0.3rem var(--warna-sekunder);
   }
 
   .footer-section a{
