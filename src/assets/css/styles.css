@@ -427,8 +427,7 @@ a.sidebar-link:hover {
     font-weight: 600;
 }
 .organized-section .image-content img{
-    max-width: 100%;
-    height: 150px !important;
+    width: 20%;
     height: auto;
     background: var(--warna-tulisan);
     border-radius: 10px;
