@@ -61,14 +61,14 @@ const Footer = () => {
                       Our Main Website
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="https://registrasi-isif-2024.vercel.app/"
                       target="_blank"
                     >
                       Registration Here
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -97,7 +97,13 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="tel:+6281770914129" target="_blank">
+                    <a href="https://wa.me/+6288213248890" target="_blank">
+                      <i className="fa fa-phone me-1"></i>
+                      +6288213248890
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://wa.me/+6281770914129" target="_blank">
                       <i className="fa fa-phone me-1"></i>
                       +6281770914129
                     </a>
@@ -116,15 +122,6 @@ const Footer = () => {
                       target="_blank"
                     >
                       <i className="fab fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://wa.me/+6281770914129"
-                      className="twitter"
-                      target="_blank"
-                    >
-                      <i className="fab fa-whatsapp"></i>
                     </a>
                   </li>
                   <li>

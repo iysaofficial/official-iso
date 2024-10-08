@@ -12,8 +12,8 @@ function MainHero() {
               <p className="">
                 It's a platform for innovators, researchers, and young thinkers from around the globe, with a focus on university students. Compete in a collaborative environment across diverse categories such as Mathematics, Physics, Energy and Engineering, Life Sciences, Environment, Education, Technology, and Social Science. Showcase your ideas, gain recognition, and contribute to the future of science. Register now!
               </p>
-              <a className="btn btn-action" href="https://registrasi-isif-2024.vercel.app/" target="_blank">
-                Link Registration
+              <a className="btn btn-action">
+                Close Registration
               </a>
               <a
                 className="btn btn-action"
